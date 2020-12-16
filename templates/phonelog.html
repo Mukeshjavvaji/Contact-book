@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="{% static 'css/phonelog.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'icofont/icofont/icofont.min.css' %}">
+
+    <title>Phone Log</title>
+</head>
+<body>
+    <div class='container'>
+        <h1>Contact Book</h1>
+        <form id="search" action='search' method='GET' autocomplete="off">
+            <i class="icofont-search-2" id='searchicon'></i><input type="text" name="key" placeholder="Name or Number" width="100" class="search" required>
+        </form>
+        <div class='buttons'>
+            <form>
+                <a><button formaction="logs" type='submit' method='GET'><i class="icofont-logout"></i></button></a>
+                <a><button formaction="contacts" type="submit" method='GET'><i class="icofont-contacts"></i></button></a>
+                <a><button formaction='addcontact' type='submit' method='POST'><i class="icofont-plus"></i></button></a>
+            </form>
+        </div>
+        
+        {% block content %}
+            
+        {% endblock %}
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</body>
+</html>

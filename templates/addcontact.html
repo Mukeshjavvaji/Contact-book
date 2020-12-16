@@ -1,0 +1,14 @@
+{% extends 'phonelog.html' %}
+
+{% block content %}
+
+<form action="add" method="POST" class='addcontact' autocomplete="off">
+    {% csrf_token %}
+    <input type="text" placeholder="Name" name="contactname" required>
+    <br><br>
+    <input type="text" placeholder="Number" name="contactnumber" required>
+    <br><br>
+    <input type="submit" id='addsubmit'>
+</form>
+
+{% endblock %}

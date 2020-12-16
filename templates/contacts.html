@@ -1,0 +1,13 @@
+{% extends 'phonelog.html' %}
+
+
+
+
+{% block content %}
+    {% for i,j in info %}
+    <div class="log">
+        <h3><strong>{{i}}</strong></h3>
+        <p>{{ j }}</p><form><button id='del' formaction='deletelog' method='POST' type='submit' value={{j}} name='numb'><i class="icofont-ui-delete"></i></button></form><form><button id='cal' formaction="addlog" method='POST' type="submit" value='{{j}}' name='numb'><i class="icofont-phone"></i></button></form>
+    </div>
+    {% endfor %}
+{% endblock %}
