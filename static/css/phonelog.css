@@ -1,0 +1,119 @@
+body{
+    border: 5px solid black;
+    margin-bottom: auto;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 2px;
+    background-image: url('https://image.freepik.com/free-vector/wallpaper-with-neon-lights-concept_23-2148491956.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-top: 20px;
+}
+
+input{
+    margin-left: 90px;
+    width: 50%;
+    height: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    outline: none;
+}
+
+.log{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    left: 10px;
+    background-color: #b3f1f5;
+    padding: 5px;
+    position: relative;
+    top: 100px;
+}
+
+i{
+    font-size: 30px;
+}
+
+button{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    width: 30px;
+    background: none;
+    padding: 0px;
+    outline: none;
+    margin: 0px 13px;
+    position: relative;
+    right: 15px;
+}
+
+.buttons{
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    display: flex;
+    
+}
+
+h3{
+    position: relative;
+    bottom: 20px;
+}
+
+p{
+    position: relative;
+    bottom: 35px;
+}
+
+.addcontact{
+    position: relative;
+    top: 100px;
+}
+
+#addsubmit{
+    height: 30px;
+    position: relative;
+    left: 13px;
+}
+
+#del{
+    position: relative;
+    left: 250px;
+    bottom: 90px;
+}
+
+#cal{
+    position: relative;
+    left: 300px;
+    bottom: 120px;
+}
+
+.search{
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
+    right: 38px;
+}
+
+#searchicon{
+    position: relative;
+    left: 85px;
+    top: 24px;
+    font-size: 25px;
+    z-index: 2;
+}
