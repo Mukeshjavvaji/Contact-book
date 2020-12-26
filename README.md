@@ -27,7 +27,7 @@ For designing the website, I have used *CSS* which you can find in **static/css/
 
 I have downloaded icofont for the icons. 
 Link: https://icofont.com
-Read the *'How to use'* section in the above link to know how to embed icons in the website.
+Read the *'How to use'* section in the link to know how to embed icons in the website.
 
 I have used *jinja web template* for using loops, condition statements etc. in HTML.
 
